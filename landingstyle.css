@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;    /* Ensure the container spans the entire viewport height */
+}
+
+.picture {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /* Adjust the height as needed */
+}
+
+.picture img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ccc;
+    padding: 20px;
+    height: 100vh;
+    /* Make the sidebar fill the entire screen height */
+    position: fixed;
+    /* Fix the sidebar position */
+    top: 0;
+    /* Position it at the top of the viewport */
+    left: 0;
+    /* Position it on the left side */
+    overflow-y: auto;
+    /* Add vertical scrolling if content overflows */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 300px; /* Add space for the sidebar on the left */
+    padding: 20px; /* Add padding to the content area to prevent overlap */
+    box-sizing: border-box; /* Include padding in element's total width */
+}
+.content h1 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+/* Contact Information Box Styles */
+.contact-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    position: absolute;
+    margin-bottom: 60px;
+    bottom: 0;
+    width: 70%;
+}
+
+.contact-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 14px;
+    margin: 0;
+}
