@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
-    <link rel="stylesheet" href="landingstyle.css">
+    <link id="stylesheet" rel="stylesheet" href="landingstyle.css">
+    <script type="text/javascript" src="button.js"></script>
 </head>
 
 <body>
@@ -13,7 +14,9 @@
     <div class="sidebar">
         <!-- Picture at the top -->
         <div class="picture">
-            <img src="your-image.jpg" alt="Your Image">
+            <a href="your-link-url">
+                <img src="your-image.jpg" alt="Your Image">
+            </a>
         </div>
 
         <ul>
@@ -23,6 +26,9 @@
             <li><a href="service.html">Service</a></li>
             <li><a href="aboutme.html">AI Page</a></li>
         </ul>
+        
+        <!-- Toggle Button -->
+        <button id="toggleButton" onclick="toggleStyle()">Toggle Style</button>
 
         <!-- Contact Information Box -->
         <div class="contact-box">
