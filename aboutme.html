@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
-    <link rel="stylesheet" href="landingstyle.css">
+    <link id="stylesheet" rel="stylesheet" href="landingstyle.css">
+    <script type="text/javascript" src="button.js"></script>
 </head>
 
 <body>
@@ -13,32 +14,41 @@
     <div class="sidebar">
         <!-- Picture at the top -->
         <div class="picture">
-            <a href="your-link-url">
-                <img src="your-image.jpg" alt="Your Image">
+            <a href="landing.html">
+                <img src="Brick.PNG" alt="Your Image">
             </a>
         </div>
 
         <ul>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="aboutme.html">AI Page</a></li>
+            <li><a href="aboutme.html" class="button"> About Me </a></li>
+            <li><a href="resume.html" class="button"">Technical Portfolio</a></li>
+            <li><a href=" projects.html" class="button">Projects</a></li>
+            <li><a href="service.html" class="button">Service</a></li>
+            <li><a href="aboutme.html" class="button">AI Page</a></li>
         </ul>
+
+        <!-- Toggle Button -->
+        <button id="toggleButton" onclick="toggleStyle()" class="button">Toggle Style</button>
 
         <!-- Contact Information Box -->
         <div class="contact-box">
-            <h2>Contact Information</h2>
-            <p>Email: lampsdad@tamu.edu</p>
-            <p>Linkedin</p>
-            <p>Github</p>
+            <h2>Contact Me:</h2>
+            <a href="mailto:lampsdad@tamu.edu" class="gmail">
+                <img src="gmail.svg" alt="Email">
+            </a>
+            <a href="linkedin.svg">
+                <img src="linkedin.svg" alt="Linkedin">
+            </a>
+            <a href="github.svg">
+                <img src="github.svg" alt="Github">
+            </a>
         </div>
     </div>
 
     <!-- Content Area -->
     <div class="content">
         <h1>Welcome to Your Website</h1>
-        <p>This is the main content area of your website. You can add your content here.</p>
+        <p>About Me in progress</p>
     </div>
 
     <script src="script.js"></script>
