@@ -1,0 +1,74 @@
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    /* Ensure it's on top of other content */
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Styles for the Full-Screen Navigation Menu */
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 999;
+    /* Ensure it's above the content */
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-content a {
+    padding: 15px;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content a:hover {
+    color: #f7ca18;
+    /* Change the color on hover */
+}
+
+/* Style for opening the navigation menu */
+.overlay.active {
+    height: 100%;
+}
+
+.heading {
+    width: 100vw;
+    background-color: #ccc;
+    padding: 20px;
+    height: 100px;
+    /* Make the sidebar fill the entire screen height */
+    position: fixed;
+    /* Fix the sidebar position */
+    top: 0;
+    /* Position it at the top of the viewport */
+    left: 0;
+    /* Position it on the left side */
+    overflow-y: auto;
+    /* Add vertical scrolling if content overflows */
+}
