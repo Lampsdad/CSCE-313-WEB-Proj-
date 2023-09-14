@@ -59,7 +59,7 @@
 
 .top-bar {
     width: 100vw;
-    background-color: #ccc;
+    background-color: #235da8;
     padding: 20px;
     height: 65px;
     /* Make the sidebar fill the entire screen height */
@@ -88,7 +88,8 @@
     padding-bottom: 20px;
     position: absolute;
     bottom: 0;
-    width: 99%;
+    right: 0;
+    width: 20vh;
 }
 
 .contact-box h2 {
@@ -109,7 +110,8 @@
 
 .contact-box img {
     font-size: 14px;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     /*make the image larger*/
     width: 50px;
     object-fit: cover;
@@ -118,12 +120,12 @@
 .content {
     flex-grow: 1;
     /* Add space for the sidebar on the left */
-    padding: 70px;
-    height: 90vh;
+    padding: 50px;
+    height: 93.5vh;
     /* Add padding to the content area to prevent overlap */
     box-sizing: border-box;
     /* Include padding in element's total width */
-    background-image: url('whitebackground.jpg');
+    background-image: url('WaterBackground.jpg');
     background-size: cover;
 }
 
@@ -135,4 +137,15 @@
 .content p {
     font-size: 16px;
     text-align: center;
+}
+
+.button {
+    background-color: #09610c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
