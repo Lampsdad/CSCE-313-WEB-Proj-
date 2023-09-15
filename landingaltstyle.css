@@ -85,7 +85,7 @@
 
 /* Contact Information Box Styles */
 .contact-box {
-    background-color: #f1f1f1;
+    background-color: #3061bd;
     padding-bottom: 20px;
     position: absolute;
     bottom: 0;
@@ -131,13 +131,21 @@
 }
 
 .content h1 {
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 40%;
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 40%;
 }
 
 .button {
@@ -171,6 +179,7 @@
     position: absolute;
     top: 0%;
     left: 45%;
+    color: white;
 }
 
 .TB1 p {
@@ -180,6 +189,7 @@
     top: 10%;
     left: 1%;
     right: 1%;
+    color: white;
 }
 
 .TB2 iframe {
@@ -206,6 +216,7 @@
     position: absolute;
     top: 0%;
     left: 41%;
+    color: white;
 }
 
 .TB3 p {
@@ -214,6 +225,7 @@
     position: absolute;
     top: 10%;
     left: 3%;
+    color: white;
 }
 
 .TB4 {
@@ -234,6 +246,7 @@
     position: absolute;
     top: 0%;
     left: 41%;
+    color: white;
 }
 
 .TB4 p {
@@ -242,6 +255,7 @@
     position: absolute;
     top: 12%;
     left: 3%;
+    color: white;
 }
 
 .Project1 {
@@ -262,6 +276,7 @@
     position: absolute;
     top: 0%;
     left: 41%;
+    color: white;
 }
 
 .Project1 p {
@@ -270,6 +285,7 @@
     position: absolute;
     top: 20%;
     left: 3%;
+    color: white;
 }
 
 .Project2 {
@@ -290,6 +306,7 @@
     position: absolute;
     top: 0%;
     left: 33%;
+    color: white;
 }
 
 .Project2 p {
@@ -298,6 +315,7 @@
     position: absolute;
     top: 20%;
     left: 3%;
+    color: white;
 }
 
 .Project3 {
@@ -318,6 +336,7 @@
     position: absolute;
     top: 0%;
     left: 41%;
+    color: white;
 }
 
 .Project3 p {
@@ -326,6 +345,7 @@
     position: absolute;
     top: 20%;
     left: 3%;
+    color: white;
 }
 
 .TB5 {
@@ -346,6 +366,7 @@
     position: absolute;
     top: 0%;
     left: 32%;
+    color: white;
 }
 
 .TB5 p {
@@ -355,4 +376,5 @@
     top: 15%;
     left: 1%;
     right: 1%;
+    color: white;
 }
