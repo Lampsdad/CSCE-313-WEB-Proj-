@@ -30,6 +30,7 @@
     overflow-x: hidden;
     transition: 0.5s;
     /* Ensure it's above the content */
+    z-index: 159;
 }
 
 .overlay-content {
@@ -71,7 +72,7 @@
     /* Position it on the left side */
     overflow-y: auto;
     /* Add vertical scrolling if content overflows */
-    z-index: 100;
+    z-index: 2000;
 }
 
 .picture {
@@ -148,4 +149,185 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.TB1 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgb(23, 134, 47);
+    z-index: 1;
+}
+
+.TB1 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.TB1 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    right: 1%;
+}
+
+.TB2 iframe {
+    width: 700px;
+    height: 900px;
+}
+
+.TB3 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 810px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+.TB3 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
+.TB3 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+.TB4 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 810px;
+    height: 400px;
+    position: absolute;
+    top: 73%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+.TB4 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
+.TB4 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+.Project1 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 450px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+.Project1 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
+.Project1 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+.Project2 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 450px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+.Project2 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
+.Project2 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+.Project3 {
+    border: 5px solid;
+    border-radius: 25px;
+    width: 450px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+.Project3 h1 {
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
+.Project3 p {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 3%;
 }
